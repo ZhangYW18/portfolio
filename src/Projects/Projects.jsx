@@ -25,6 +25,7 @@ function Projects(props) {
         hoverable
         style={{ width: cardWidth }}
         cover={<img alt={'Redesigned Webpage'} src={ process.env.PUBLIC_URL + "/images/redesign.jpg"}/>}
+        onClick={() => { navigate("/projects/redesign") }}
       >
         <Meta title={'Responsive Redesign'}
               description={'Take a look at how I redesign a cliche and clunky medical center webpage ' +
@@ -34,6 +35,7 @@ function Projects(props) {
         hoverable
         style={{ width: cardWidth }}
         cover={<img alt={'My Album Favorite Page'} src={ process.env.PUBLIC_URL + "/images/dev.png"}/>}
+        onClick={() => { navigate("/projects/dev") }}
       >
         <Meta title={'React Development'}
               description={'With competitive analysis conducted ahead, I managed to create my own music ' +

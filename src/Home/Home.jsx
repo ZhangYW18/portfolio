@@ -1,8 +1,8 @@
 import React from 'react';
-import {Divider, Flex, Image, List, Radio, Typography} from 'antd';
+import {Divider, Flex, Image, List, Typography} from 'antd';
 import "./Home.css"
 
-const { Title, Paragraph, Text } = Typography;
+const { Title, Text } = Typography;
 
 const intro_data = [
   <span>Ex SDE intern at DoorDash, VMware and ByteDance</span>,
@@ -38,7 +38,7 @@ function Home(props) {
             }}>Yiwei Zhang</div>
             </Title>
             <Title level={3} style={{ margin: 0 }}>
-              Software Engineer at DoorDash
+              <u>Software Engineer</u> at <span style={{color: '#FF3008'}}>DoorDash</span>
             </Title>
           </div>
 

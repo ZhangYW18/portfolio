@@ -14,8 +14,9 @@ import Blog from "./Blog/Blog";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "*",
     element: <App/>,
+    // errorElement: <ErrorPage/>,
     children: [
       {
         path: "about",
@@ -26,9 +27,9 @@ const router = createBrowserRouter([
         element: <Projects/>,
         children: [
           {
-            path: "traceflow",
-            element: <Blog theme={'traceflow'}/>,
-          },
+            path: ":topic",
+            element: <Blog/>,
+          }
         ]
       },
     ],

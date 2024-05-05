@@ -1,11 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
 
-import {BrowserRouter, Route, Routes} from "react-router-dom";
-import {Link, NavLink} from "react-router-dom";
+import {Route, Routes} from "react-router-dom";
+import {NavLink} from "react-router-dom";
 
 
-import {Flex, Layout, Menu, Typography} from 'antd';
+import {Divider, Flex, Layout, Menu} from 'antd';
 import {Footer, Header} from "antd/es/layout/layout";
 import {CodeOutlined, GithubOutlined, HomeOutlined, LinkedinOutlined} from "@ant-design/icons";
 import About from "./About/About";
@@ -13,7 +12,7 @@ import Home from "./Home/Home";
 import Projects from "./Projects/Projects";
 import {useState} from "react";
 import Blog from "./Blog/Blog";
-const { Title, Text, LinkText } = Typography;
+import ErrorPage from "./ErrorPage/ErrorPage";
 
 
 const headerItems = [
@@ -74,16 +73,26 @@ function App() {
 
         <Layout>
           <Routes>
-            <Route index path="/*" element={<Home/>}/>
+            <Route index path="/" element={<Home/>}/>
             <Route path="about" element={<About/>}/>
-            <Route path="projects" element={<Projects/>}/>
             <Route path="projects/*" element={<Blog/>}/>
+            <Route path="projects" element={<Projects/>}/>
+            <Route index path="/*" element={<ErrorPage/>}/>
           </Routes>
         </Layout>
 
+        <Divider/>
+
         <Footer>
-          <GithubOutlined style={{fontSize: '40px'}} />
-          <LinkedinOutlined style={{fontSize: '40px'}}/>
+          <Flex justify={'center'} align={'center'} vertical>
+            <span style={{
+              fontSize: '15px'
+            }}>Follow Me:</span>
+            <div>
+              <GithubOutlined style={{fontSize: '40px'}} />
+              <LinkedinOutlined style={{fontSize: '40px'}}/>
+            </div>
+          </Flex>
         </Footer>
       </Layout>
     </div>

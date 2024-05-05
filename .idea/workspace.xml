@@ -2,15 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d0eabe8-63f2-4649-8711-43497ccf95f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/traceflow/h-vs-c.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/About/About.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Blog/Blog.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Blog/blog.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Home/Home.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Home/Home.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/traceflow/award-pic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/traceflow/award.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/traceflow/cli-gui.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/traceflow/confused-sde.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/traceflow/crd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/traceflow/k8s.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/traceflow/smiling-sde.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/traceflow/tf-color.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/traceflow/tf_graph_failure.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/traceflow/tf_graph_success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/traceflow/ui.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Blog/Dev/Dev.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Blog/Redesign/Redesign.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Blog/Traceflow/Traceflow.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ErrorPage/ErrorPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Blog/Blog.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Blog/Blog.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Blog/blog.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Blog/blog.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/Projects.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Projects.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +43,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="2fpU1wgajlHzJJ1RAjvy4fCwfeO" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -46,6 +68,7 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -73,7 +96,8 @@
       <workItem from="1714687271292" duration="676000" />
       <workItem from="1714689834693" duration="297000" />
       <workItem from="1714697690341" duration="4190000" />
-      <workItem from="1714838212866" duration="16992000" />
+      <workItem from="1714838212866" duration="33012000" />
+      <workItem from="1714944128664" duration="2731000" />
     </task>
     <servers />
   </component>
