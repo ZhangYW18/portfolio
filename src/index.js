@@ -4,10 +4,42 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+import About from "./About/About";
+import Projects from "./Projects/Projects";
+import Blog from "./Blog/Blog";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App/>,
+    children: [
+      {
+        path: "about",
+        element: <About/>,
+      },
+      {
+        path: "projects",
+        element: <Projects/>,
+        children: [
+          {
+            path: "traceflow",
+            element: <Blog theme={'traceflow'}/>,
+          },
+        ]
+      },
+    ],
+  },
+]);
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 
