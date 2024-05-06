@@ -28,7 +28,11 @@ function About(props) {
           textAlign: "left",
           paddingRight: '5%',
         }}>
-          <Title level={1} style={titleStyle }>About Me</Title>
+          <Flex style={{
+            textAlign: 'center',
+          }}>
+            <Title level={1} style={titleStyle }>About Me</Title>
+          </Flex>
           <Typography>
             <p>
               Hi there! I'm Yiwei. I'm a software engineer from China.
@@ -74,7 +78,11 @@ function About(props) {
           textAlign: "left",
           paddingLeft: '5%',
         }}>
-          <Title level={1} style={titleStyle}>Competitive Programming</Title>
+          <Flex style={{
+            textAlign: 'center',
+          }}>
+            <Title level={1} style={titleStyle}>Competitive Programming</Title>
+          </Flex>
           <Typography>
             <p>
               <b> {String.raw`Ooh-la-love, I've fallen in love`} </b>
@@ -90,14 +98,18 @@ function About(props) {
 
       </Flex>
 
-      {/*section 2: competitive programming*/}
+      {/*section 3: hobbies*/}
       <Flex>
         <Flex justify={'center'} align={'center'} vertical style={{
           width: '55%',
           textAlign: "left",
           paddingRight: '5%',
         }}>
-          <Title level={1} style={titleStyle }>Hobbies</Title>
+          <Flex style={{
+            textAlign: 'center',
+          }}>
+            <Title level={1} style={titleStyle }>Hobbies</Title>
+          </Flex>
           <Typography>
             <p>
               I like hiking in great nature and enjoy the sound of wind, leaves, wildlife, and everything offered by this amazing earth.
