@@ -20,7 +20,6 @@ function Traceflow(props) {
 
       <Paragraph style={{
         textAlign: "left",
-        padding: "0 7%",
       }}>
         * Read more about Antrea traceflow in Antrea official documentation
         <Link href="https://antrea.io/docs/v1.11.4/docs/traceflow-guide/" target="_blank"> here</Link>.
@@ -212,7 +211,7 @@ results:
       <p></p>
       <i>2 Example Traceflow Diagarams, Before and After the Demo Meeting</i>
       <p>
-        Another critical aspect of the development process was the collaboration with the Octant team, who maintained the Web UI that Antrea Traceflow depended on. During the development, I encountered a bug in Octant that could have impacted the functionality of Traceflow. I reported this bug to the Octant team, and despite the setback, I adjusted my schedule to work on other tasks until the bug was fixed. This collaboration ensured that the project stayed on track and was completed on schedule.
+        Another critical aspect of the development process was the collaboration with the Octant team, who maintained the Web UI that Antrea Traceflow depended on. During the development, I encountered a bug in Octant that could have impacted the functionality of Traceflow. I <a href={"https://github.com/vmware-archive/octant/issues/1427"}>reported this bug</a> to the Octant team, and despite the setback, I adjusted my schedule to work on other tasks until the bug was fixed. This collaboration ensured that the project stayed on track and was completed on schedule.
       </p>
       <p>
         The feedback from the demo meeting and the collaboration with the Octant team were instrumental in shaping the final version of Antrea Traceflow. The simplified color theme of the result diagram and the clearer error messages for CLI inputs improved the overall user experience of the project. Additionally, the bug fix in Octant ensured that the Web UI of Traceflow functioned correctly, further enhancing the project's functionality and reliability.
@@ -228,11 +227,6 @@ results:
         alt={'Most Innovative Project Award'}
       />
       <p/>
-      <Image
-        src={process.env.PUBLIC_URL + "/images/traceflow/award-pic.png"}
-        style={{ maxHeight: '500px' }}
-        alt={'Most Innovative Project Award'}
-      />
       <p>
         Overall, the development of Antrea Traceflow was a valuable learning experience that taught me the importance of continuous improvement, collaboration, and adaptability in software development. It also underscored the significance of user feedback in shaping the final product and the impact of effective teamwork in achieving project goals.
       </p>

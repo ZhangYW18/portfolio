@@ -10,7 +10,7 @@ function Projects(props) {
   const navigate = useNavigate()
 
   return (
-    <Flex justify={'space-evenly'} align={'center'} style={{ padding: '100px 0' }}>
+    <Flex justify={'space-evenly'} align={'center'} style={{ paddingTop: '100px', paddingBottom: '50px' }}>
       <Card
         hoverable
         style={{ width: cardWidth }}

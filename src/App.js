@@ -46,8 +46,8 @@ function App() {
           <Flex justify={'space-between'} align={'center'}>
             <div style={{
               color: 'white',
-              fontSize: '1.5rem',
-            }}>Yiwei Zhang</div>
+              fontSize: '2rem',
+            }}>YZ</div>
             <Flex justify={'flex-end'} flex={1}>
               <Menu theme="dark" mode="horizontal" defaultSelectedKeys={[url]} style={{
                 fontSize: '15px',
