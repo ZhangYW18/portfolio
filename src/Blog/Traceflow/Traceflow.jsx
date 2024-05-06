@@ -17,6 +17,12 @@ function Traceflow(props) {
       }}>
         <b>Abstract</b> Antrea Traceflow is a powerful tool within the Antrea networking solution for Kubernetes, designed to enhance network troubleshooting and analysis. Antrea itself is a networking plugin for Kubernetes that provides networking and security services, including pod-to-pod connectivity, network policy enforcement, and load balancing. Traceflow, as part of Antrea, allows users to simulate the path of packets through their Kubernetes network, helping to diagnose and resolve connectivity issues. This tool provides detailed visibility into network behavior, allowing users to understand how packets are routed, identify potential bottlenecks or misconfigurations, and verify the effectiveness of network policies. By enabling users to trace packet flows between pods, Antrea Traceflow empowers Kubernetes administrators and network engineers to optimize and maintain a reliable and secure network infrastructure.
       </Paragraph>
+      <Paragraph style={{
+        textAlign: "left",
+        fontSize: "17px",
+      }}>
+        This is the project I did when I was a software engineer intern at VMware. It won Most Innovative Project (Rank 1) at VMware Intern Poster Session (See picture below) that year.
+      </Paragraph>
 
       <Paragraph style={{
         textAlign: "left",
@@ -25,9 +31,6 @@ function Traceflow(props) {
         <Link href="https://antrea.io/docs/v1.11.4/docs/traceflow-guide/" target="_blank"> here</Link>.
       </Paragraph>
 
-      <p>
-        This is the project I did when I was a software engineer intern at VMware. It won Most Innovative Project (Rank 1) at VMware Intern Poster Session (See picture below) that year.
-      </p>
       <Image
         src={process.env.PUBLIC_URL + "/images/traceflow/vmware-office.jpeg"}
         style={{ maxHeight: '450px' }}

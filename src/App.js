@@ -1,6 +1,6 @@
 import './App.css';
 
-import {Route, Routes} from "react-router-dom";
+import {Route, Routes, useLocation} from "react-router-dom";
 import {NavLink} from "react-router-dom";
 
 
@@ -34,9 +34,12 @@ const headerItems = [
 ];
 
 function App() {
+  const location = useLocation()
+  // console.log(location.pathname)
+
   const [url, setUrl] = useState(
-    window.location.pathname === '/' ? 'home' :
-      (window.location.pathname.startsWith('/projects') ? 'projects' : window.location.pathname.substring(1))
+    location.pathname === '/' ? 'home' :
+      (location.pathname.startsWith('/projects') ? 'projects' : location.pathname.substring(1))
   )
 
   return (
@@ -86,12 +89,15 @@ function App() {
         <Footer>
           <Flex justify={'center'} align={'center'} vertical>
             <span style={{
-              fontSize: '15px'
-            }}>Follow Me:</span>
-            <div>
-              <GithubOutlined style={{fontSize: '40px'}} />
-              <LinkedinOutlined style={{fontSize: '40px'}}/>
-            </div>
+              fontSize: '15px',
+              paddingBottom: '5px',
+            }}>Connect Me:</span>
+            <Flex style={{
+              gap: '15px',
+            }}>
+              <a href={"https://github.com/ZhangYW18"}> <GithubOutlined style={{fontSize: '30px'}} /> </a>
+              <a href={"https://www.linkedin.com/in/yiwei-zh/"}> <LinkedinOutlined style={{fontSize: '30px'}}/> </a>
+            </Flex>
           </Flex>
         </Footer>
       </Layout>

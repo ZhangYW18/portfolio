@@ -28,7 +28,7 @@ function Projects(props) {
         onClick={() => { navigate("/projects/redesign") }}
       >
         <Meta title={'Responsive Redesign'}
-              description={'Take a look at how I redesign a cliche and clunky medical center webpage ' +
+              description={'Take a look at how I redesigned a cliche, clunky medical center webpage ' +
               'into a webpage with modern, harmonious UI. '} />
       </Card>
       <Card
@@ -37,7 +37,7 @@ function Projects(props) {
         cover={<img alt={'My Album Favorite Page'} src={ process.env.PUBLIC_URL + "/images/dev.png"}/>}
         onClick={() => { navigate("/projects/dev") }}
       >
-        <Meta title={'React Development'}
+        <Meta title={'Album Library Page Dev'}
               description={'With competitive analysis conducted ahead, I managed to create my own music ' +
               'album favorite webpage with React.js.'} />
       </Card>

@@ -4,7 +4,7 @@ import {Image, Typography} from "antd";
 import '../blog.css'
 
 function Redesign(props) {
-  const {Title, Paragraph, Link, Text} = Typography;
+  const {Title, Paragraph} = Typography;
 
   return (
     <Typography style={{
@@ -16,11 +16,8 @@ function Redesign(props) {
         textAlign: "left",
         fontSize: "17px",
       }}>
-        <b>Abstract</b> Have you ever felt frustrated when trying to navigate a website that just doesn't seem to work well on your phone or tablet? As someone who spends a lot of time online, I've noticed that many websites, even those of reputable businesses like local clinics, can be difficult to use and visually unappealing. That's why I took on the challenge of redesigning the home webpage of a local clinic called "Primary Walkin Medical Center." I wanted to make it more user-friendly and visually appealing, ensuring that it works well on all devices. This project involved identifying usability problems, creating sketches and designs, and finally implementing the changes to improve the website's overall experience.
+        <b>Abstract</b> Have you ever felt frustrated when trying to navigate a website that just doesn't seem to work well on your phone or tablet? As someone who spends a lot of time online, I've noticed that many websites, even those of reputable businesses like local clinics, can be difficult to use and visually unappealing. That's why I took on the challenge of redesigning the home webpage of a local clinic called "Primary Walkin Medical Center." I wanted to make it more user-friendly and visually appealing, ensuring that it works well on all devices. This project involved identifying usability problems, creating sketches and designs, and finally implementing the changes to improve the website's overall experience. Check out the <a href={"https://primarywalkinmedical.com/"}>old homepage</a> and <a href={"https://zhangyw18.github.io/cs1300_ass2/"}>redesigned homepage</a> to see how great the change is.
       </Paragraph>
-      <p>
-        Check out the <a href={"https://primarywalkinmedical.com/"}>old homepage</a> and <a href={"https://zhangyw18.github.io/cs1300_ass2/"}>redesigned homepage</a> to see how great the change is.
-      </p>
 
       <Title level={2}>Usability & Accessibility Problems</Title>
       <p>
