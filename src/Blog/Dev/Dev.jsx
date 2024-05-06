@@ -5,7 +5,7 @@ import '../blog.css'
 import {CheckOutlined, CloseOutlined} from "@ant-design/icons";
 
 function Dev(props) {
-  const {Title, Paragraph, Link, Text} = Typography;
+  const {Title, Paragraph} = Typography;
 
   const tableIconRender = (text) => text === 1 ? <CheckOutlined /> : <CloseOutlined />
 

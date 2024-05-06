@@ -86,12 +86,12 @@ function App() {
 
         <Divider/>
 
-        <Footer>
+        <Footer style={{paddingBottom: '50px'}}>
           <Flex justify={'center'} align={'center'} vertical>
             <span style={{
               fontSize: '15px',
               paddingBottom: '5px',
-            }}>Connect Me:</span>
+            }}>Connect Me</span>
             <Flex style={{
               gap: '15px',
             }}>
