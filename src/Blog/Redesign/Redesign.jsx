@@ -33,7 +33,7 @@ function Redesign(props) {
         <b>Time</b> February 2024 (3 Weeks)
       </Paragraph>
 
-      <Title level={2}>Usability & Accessibility Problems</Title>
+      <Title level={2}>Research: Usability & Accessibility Problems</Title>
       <p>
         As a web user, it's frustrating to encounter websites that are difficult to navigate and visually unappealing. Common accessibility problems include small or hard-to-read text, lack of alternative text for images, and confusing navigation menus. These issues can make it challenging for users with disabilities to access the content. Visually unpleasant websites often have cluttered layouts, overwhelming colors, and inconsistent design elements. These problems not only make it difficult to find information but also create a poor user experience. The <a href={"https://primarywalkinmedical.com/"}>homepage of Primary Walkin Medical Center</a> is a great example of the websites which suffers from a variety of usability and accessibility issues that hinder its effectiveness and user experience. Here's the screenshot of it:
       </p>

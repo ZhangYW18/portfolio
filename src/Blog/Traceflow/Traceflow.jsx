@@ -28,7 +28,7 @@ function Traceflow(props) {
         textAlign: "left",
         fontSize: "17px",
       }}>
-        <b>Role</b> Software Engineer Intern
+        <b>Role</b> Software Engineer Intern (Cloud Computing, Computer Network)
       </Paragraph>
 
       <Paragraph style={{

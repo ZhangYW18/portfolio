@@ -143,7 +143,7 @@ function Dev(props) {
         Have you ever wondered if the favorite feature of a music app could be improved? I certainly have, which is why I decided to redesign the UI of the album favoriting feature and implement my own version based on competitive analysis. The result is a revamped album favoriting feature that enhances the overall user experience, offering a more intuitive and efficient way to manage favorite albums. Below is the steps I follow.
       </p>
 
-      <Title level={2}>Competitive Analysis</Title>
+      <Title level={2}>Competitive Analysis Research</Title>
       <p>
         Before starting development, it is crucial to conduct a competitive analysis to gather insights into what features and functionalities competitors are offering, and how they are perceived by users. Competitive analysis is a process of evaluating and comparing the strengths and weaknesses of competing products or services in the market. It helps in understanding the market landscape, identifying opportunities for improvement, and making informed decisions for product development.
       </p>
