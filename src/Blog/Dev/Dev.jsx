@@ -176,12 +176,12 @@ function Dev(props) {
         The page is titled "My Albums," with albums displayed in the left part of the page under the title, occupying most of the space. Other features such as filtering, sorting, and an aggregator are placed in the right part of the page. Depending on the genres of albums, we collect genre tags for users to filter. Users can also filter albums by setting the release time range. We provide three sorting keys for albums: title, artist, and year. For tablet and mobile devices, we move the sidebar directly under the title and place the album library under the sidebar.
       </p>
 
-      <Title level={2}>Implementation Plan</Title>
+      <Title level={2}>Implementation</Title>
       <p>
         With the design finalized, I began the implementation process by writing components in React, including AlbumLib, AlbumCard, and FilterButton. These components were then combined in the main JS file, where I dynamically updated states and variables in response to user interactions. This allowed for real-time modifications to the page based on user actions, providing a more interactive experience.
       </p>
       <p>
-        Sorting functionality was implemented by first sorting albums based on the user-selected key. To resolve any ties, additional keys such as artist, title, and year were used in a predetermined order. For filtering, a boolean field "filtered" was added to each album, which was updated whenever the filter condition was changed. These implementation details were crucial in ensuring the functionality and usability of the app, allowing users to easily manage and navigate their album collection.
+        Sorting functionality was implemented by firstly sorting albums based on the user-selected key in [artist, title, year]. To resolve any ties, additional keys were used in a predetermined order. For filtering, a boolean field "filtered" was added to each album, which was updated whenever the filter condition was changed. These implementation details were crucial in ensuring the functionality and usability of the app, allowing users to easily manage and navigate their album collection.
       </p>
 
       <Title level={2}>Final Work</Title>
