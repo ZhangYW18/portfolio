@@ -45,13 +45,13 @@ function Redesign(props) {
       <p/>
       <i>Screenshot of Original Homepage</i>
       <p>
-        One notable problem is the inefficiency in presenting crucial information. For example, the address and map of the medical center are separated on the webpage, requiring users to scroll down to find the map, which could be easily consolidated for quicker access. Similarly, the hours of operation for the medical center and laser skincare services are presented separately, adding unnecessary complexity and increasing the time users need to spend navigating the page.
+        One notable problem is the <b>inefficiency in presenting crucial information</b>. For example, the address and map of the medical center are separated on the webpage, requiring users to scroll down to find the map, which could be easily consolidated for quicker access. Similarly, the hours of operation for the medical center and laser skincare services are presented separately, adding unnecessary complexity and increasing the time users need to spend navigating the page.
       </p>
       <p>
-        The webpage also lacks visual appeal and symmetry, with the left bottom half largely blank, creating an unbalanced layout that can be unappealing to users. Additionally, the placement of the "Pages" section, which lists all available links, in the right bottom corner is unconventional and makes it difficult for users to locate important information. This section could be better placed in the footer area for easier access.
+        The webpage also <b>lacks visual appeal and symmetry</b>, with the left bottom half largely blank, creating an unbalanced layout that can be unappealing to users. Additionally, the placement of the "Pages" section, which lists all available links, in the right bottom corner is unconventional and makes it difficult for users to locate important information. This section could be better placed in the footer area for easier access.
       </p>
       <p>
-        Accessibility is another significant issue on the webpage. Some images lack alt text, which is crucial for users with visual impairments who rely on screen readers to access content. The use of grey text on a white background and the excessive use of capital letters further contribute to accessibility challenges, making it difficult for users to read the content easily.
+        <b>Accessibility</b> is another significant issue on the webpage. Some images lack alt text, which is crucial for users with visual impairments who rely on screen readers to access content. The use of grey text on a white background and the excessive use of capital letters further contribute to accessibility challenges, making it difficult for users to read the content easily.
       </p>
       <p>
         Overall, these usability and accessibility issues make the webpage of Primary Walkin Medical Center poorly accessible for all users, including those with disabilities, and detract from its overall effectiveness in providing information to visitors.
@@ -147,10 +147,32 @@ function Redesign(props) {
         During the design process for the Primary Walkin Medical Center's homepage, I encountered several tradeoffs that required careful consideration.
       </p>
       <p>
-        One of the key tradeoffs was between aesthetics and usability. While it was important to create a visually appealing design, it was equally important to ensure that the website was easy to navigate and understand. To achieve the tradeoff, I focused on creating a clean and intuitive design that prioritized ease of navigation in header and footer. I used a simple color palette (various shades of pink color) and typography to maintain a professional look while ensuring that the content was easy to read and understand. Additionally, I carefully considered the placement of elements and the overall layout to create a visually appealing design that also emphasized usability.
+        One of the key tradeoffs was between <b>aesthetics and usability</b>. While it was important to create a visually appealing design, it was equally important to ensure that the website was easy to navigate and understand. To achieve the tradeoff, I did the following items:
+        <ul>
+          <li>
+            Focused on creating a clean and intuitive design that prioritized ease of navigation in header and footer;
+          </li>
+          <li>
+            Used a simple color palette (various shades of pink color) and typography to maintain a professional look while ensuring that the content was easy to read and understand;
+          </li>
+          <li>
+            Carefully considered the placement of elements and the overall layout to create a visually appealing design that also emphasized usability.
+          </li>
+        </ul>
       </p>
       <p>
-        Another tradeoff was between simplicity and functionality. While adding more features and elements could enhance the website's functionality, it could also make it more complex and difficult to use. For this, I took a user-centered approach, prioritizing the most important features for users and content while keeping the design streamlined and uncluttered. I asked for feedback from other people to figure out the most critical features. I also hide complex or less frequently used features like page links in footer, ensuring that the website remained simple and intuitive for users.
+        Another tradeoff was between <b>simplicity and functionality</b>. While adding more features and elements could enhance the website's functionality, it could also make it more complex and difficult to use. For this, I I did the following items:
+        <ul>
+          <li>
+            Took a user-centered approach, prioritizing the most important features for users and content while keeping the design streamlined and uncluttered;
+          </li>
+          <li>
+            Asked for feedback from other people to figure out the most critical features;
+          </li>
+          <li>
+            Hide complex or less frequently used features like page links in footer, ensuring that the website remained simple and intuitive for users.
+          </li>
+        </ul>
       </p>
 
       <Title level={2}>Implementation</Title>
