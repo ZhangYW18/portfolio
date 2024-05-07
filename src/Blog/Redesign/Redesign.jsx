@@ -19,6 +19,20 @@ function Redesign(props) {
         <b>Abstract</b> Have you ever felt frustrated when trying to navigate a website that just doesn't seem to work well on your phone or tablet? As someone who spends a lot of time online, I've noticed that many websites, even those of reputable businesses like local clinics, can be difficult to use and visually unappealing. That's why I took on the challenge of redesigning the home webpage of a local clinic called "Primary Walkin Medical Center." I wanted to make it more user-friendly and visually appealing, ensuring that it works well on all devices. This project involved identifying usability problems, creating sketches and designs, and finally implementing the changes to improve the website's overall experience. Check out the <a href={"https://primarywalkinmedical.com/"}>old homepage</a> and <a href={"https://zhangyw18.github.io/cs1300_ass2/"}>redesigned homepage</a> to see how great the change is.
       </Paragraph>
 
+      <Paragraph style={{
+        textAlign: "left",
+        fontSize: "17px",
+      }}>
+        <b>Role</b> UI Designer + Frontend Engineer
+      </Paragraph>
+
+      <Paragraph style={{
+        textAlign: "left",
+        fontSize: "17px",
+      }}>
+        <b>Time</b> February 2024 (3 Weeks)
+      </Paragraph>
+
       <Title level={2}>Usability & Accessibility Problems</Title>
       <p>
         As a web user, it's frustrating to encounter websites that are difficult to navigate and visually unappealing. Common accessibility problems include small or hard-to-read text, lack of alternative text for images, and confusing navigation menus. These issues can make it challenging for users with disabilities to access the content. Visually unpleasant websites often have cluttered layouts, overwhelming colors, and inconsistent design elements. These problems not only make it difficult to find information but also create a poor user experience. The <a href={"https://primarywalkinmedical.com/"}>homepage of Primary Walkin Medical Center</a> is a great example of the websites which suffers from a variety of usability and accessibility issues that hinder its effectiveness and user experience. Here's the screenshot of it:

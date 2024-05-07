@@ -125,6 +125,20 @@ function Dev(props) {
         <b>Abstract</b> Imagine you're exploring different music streaming services like Spotify, Apple Music, and Amazon Music, trying to decide which one to use. You notice that each service has its own way of organizing and presenting playlists, making it easy or difficult to find your favorite albums. In a design project similar to this scenario, I analyzed these services to understand what works well and what could be improved. Using this knowledge, I then created a new interface where you can easily favorite albums, filter them by genre and release date, and sort them by title, artist, or year in a sidebar. For tablet and mobile devices, the layout was adjusted to place the sidebar under the title and the album library is put below it, ensuring a responsive design. Check out my final work <a href={"https://cs1300-ass4.vercel.app/"}>here</a>.
       </Paragraph>
 
+      <Paragraph style={{
+        textAlign: "left",
+        fontSize: "17px",
+      }}>
+        <b>Role</b> Product Manager + Frontend Engineer
+      </Paragraph>
+
+      <Paragraph style={{
+        textAlign: "left",
+        fontSize: "17px",
+      }}>
+        <b>Time</b> March 2024 (2 Weeks)
+      </Paragraph>
+
       <p>
         Have you ever wondered if the favorite feature of a music app could be improved? I certainly have, which is why I decided to redesign the UI of the album favoriting feature and implement my own version based on competitive analysis. The result is a revamped album favoriting feature that enhances the overall user experience, offering a more intuitive and efficient way to manage favorite albums. Below is the steps I follow.
       </p>

@@ -26,6 +26,20 @@ function Traceflow(props) {
 
       <Paragraph style={{
         textAlign: "left",
+        fontSize: "17px",
+      }}>
+        <b>Role</b> Software Engineer Intern
+      </Paragraph>
+
+      <Paragraph style={{
+        textAlign: "left",
+        fontSize: "17px",
+      }}>
+        <b>Time</b> April 2020 ~ July 2020 (3 Months)
+      </Paragraph>
+
+      <Paragraph style={{
+        textAlign: "left",
       }}>
         * Read more about Antrea traceflow in Antrea official documentation
         <Link href="https://antrea.io/docs/v1.11.4/docs/traceflow-guide/" target="_blank"> here</Link>.
