@@ -163,7 +163,6 @@ function Traceflow(props) {
       </p>
       <Flex justify={'flex-start'} style={{
         textAlign: 'left',
-        padding: "0 7%",
       }}>
         <CodeBlock
           text={String.raw`name: busybox0-to-busybox1-fpllngzi
