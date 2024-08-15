@@ -3,17 +3,20 @@ import Card from "antd/es/card/Card";
 import Meta from "antd/es/card/Meta";
 import {Flex} from "antd";
 import {useNavigate} from "react-router-dom";
+import {useMediaQuery} from "react-responsive";
 
 const cardWidth = '27%'
 
 function Projects(props) {
   const navigate = useNavigate()
+  const isTablet = useMediaQuery({ query: '(max-width: 1200px)' });
+  const isMobile = useMediaQuery({ query: '(max-width: 768px)' });
 
   return (
-    <Flex justify={'space-evenly'} align={'center'} style={{ paddingTop: '100px', paddingBottom: '50px' }}>
+    <Flex justify={'space-evenly'} align={'center'} style={{ paddingTop: '100px', paddingBottom: '50px', gap: isTablet ? '50px' : '0' }} vertical={isTablet}>
       <Card
         hoverable
-        style={{ width: cardWidth }}
+        style={{ width: isMobile ? '90%' : (isTablet ? '50%' : cardWidth) }}
         cover={<img alt={'Antrea'} src={ process.env.PUBLIC_URL + "/images/antrea.png"}/>}
         onClick={() => { navigate("/projects/traceflow") }}
       >
@@ -23,7 +26,7 @@ function Projects(props) {
       </Card>
       <Card
         hoverable
-        style={{ width: cardWidth }}
+        style={{ width: isMobile ? '90%' : (isTablet ? '50%' : cardWidth) }}
         cover={<img alt={'Redesigned Webpage'} src={ process.env.PUBLIC_URL + "/images/redesign.jpg"}/>}
         onClick={() => { navigate("/projects/redesign") }}
       >
@@ -33,7 +36,7 @@ function Projects(props) {
       </Card>
       <Card
         hoverable
-        style={{ width: cardWidth }}
+        style={{ width: isMobile ? '90%' : (isTablet ? '50%' : cardWidth) }}
         cover={<img alt={'My Album Favorite Page'} src={ process.env.PUBLIC_URL + "/images/dev.png"}/>}
         onClick={() => { navigate("/projects/dev") }}
       >
