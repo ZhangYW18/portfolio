@@ -1,6 +1,7 @@
 import React from 'react';
 import {Divider, Flex, Image, List, Typography} from 'antd';
 import "./Home.css"
+import {useMediaQuery} from "react-responsive";
 
 const { Title, Text } = Typography;
 
@@ -15,11 +16,14 @@ const intro_data = [
 ];
 
 function Home(props) {
+  const isTablet = useMediaQuery({ query: '(max-width: 1200px)' });
+  // const isMobile = useMediaQuery({ query: '(max-width: 768px)' });
+
   return (
-    <Flex>
+    <Flex vertical={isTablet}>
       <Flex justify={'center'} align={'center'} vertical
             style={{
-              width: '55%',
+              width: isTablet ? '100%' : '55%',
               padding: '5% 0 5% 5%',
             }}>
 
@@ -42,7 +46,7 @@ function Home(props) {
             </Title>
           </div>
 
-          <Flex align={'center'}>
+          <Flex align={'center'} width={"100%"}>
             <img src={process.env.PUBLIC_URL + "/images/keyboard.jpg"} alt="Keyboard" style={{
               width: '100px',
               height: '70px',
@@ -61,7 +65,9 @@ function Home(props) {
         )}/>
 
       </Flex>
-      <Flex justify={'center'} align={'center'} style={{ width: '45%' }}>
+      <Flex justify={'center'} align={'center'} style={{
+        width: isTablet ? '100%' : '45%',
+      }}>
         <Image
           src={process.env.PUBLIC_URL + "/images/home.jpeg"}
           style={{ width: '70%', maxHeight: '800px' }}

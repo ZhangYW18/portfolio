@@ -1,5 +1,5 @@
 import React from 'react';
-import {Carousel, Flex} from "antd";
+import {Flex} from "antd";
 
 import '../Blog/blog.css'
 import AboutSection from "./AboutSection/AboutSection";

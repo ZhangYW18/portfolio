@@ -1,5 +1,5 @@
 import React from 'react';
-import {Carousel, Flex, Image, Typography} from "antd";
+import {Flex, Image, Typography} from "antd";
 import { useMediaQuery } from 'react-responsive';
 
 const { Title } = Typography;
@@ -14,7 +14,7 @@ const titleStyle = {
 
 function AboutSection(props) {
   const isTablet = useMediaQuery({ query: '(max-width: 1200px)' });
-  const isMobile = useMediaQuery({ query: '(max-width: 768px)' });
+  // const isMobile = useMediaQuery({ query: '(max-width: 768px)' });
 
   const {title, paragraphs, picUrl, reverse} = props
 
