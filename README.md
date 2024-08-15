@@ -1,3 +1,11 @@
+# Project TODO List
+
+- Add OS project 
+- Add DashCache project 
+- Add ID Recycle SQL optimization page
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
