@@ -1,16 +1,16 @@
 import './App.css';
 
-import {Route, Routes, useLocation} from "react-router-dom";
-import {NavLink} from "react-router-dom";
+import { Route, Routes, useLocation } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 
-import {Divider, Flex, Layout, Menu} from 'antd';
-import {Footer, Header} from "antd/es/layout/layout";
-import {CodeOutlined, GithubOutlined, HomeOutlined, LinkedinOutlined} from "@ant-design/icons";
+import { Divider, Flex, Layout, Menu } from 'antd';
+import { Footer, Header } from "antd/es/layout/layout";
+import { CodeOutlined, GithubOutlined, HomeOutlined, LinkedinOutlined } from "@ant-design/icons";
 import About from "./About/About";
 import Home from "./Home/Home";
 import Projects from "./Projects/Projects";
-import {useState} from "react";
+import { useState } from "react";
 import Blog from "./Blog/Blog";
 import ErrorPage from "./ErrorPage/ErrorPage";
 
@@ -62,8 +62,8 @@ function App() {
                 {headerItems.map(item => (
                   <Menu.Item key={item.key}>
                     <NavLink to={item.key === 'home' ? '' : item.key}
-                             activeStyle={{backgroundColor: 'white'}}
-                             onClick={() => setUrl(item.key)}
+                      activeStyle={{ backgroundColor: 'white' }}
+                      onClick={() => setUrl(item.key)}
                     >
                       {item.label}
                     </NavLink>
@@ -76,17 +76,17 @@ function App() {
 
         <Layout>
           <Routes>
-            <Route index path="/" element={<Home/>}/>
-            <Route path="about" element={<About/>}/>
-            <Route path="projects/*" element={<Blog/>}/>
-            <Route path="projects" element={<Projects/>}/>
-            <Route index path="/*" element={<ErrorPage/>}/>
+            <Route index path="/" element={<Home />} />
+            <Route path="about" element={<About />} />
+            <Route path="projects/*" element={<Blog />} />
+            <Route path="projects" element={<Projects />} />
+            <Route index path="/*" element={<ErrorPage />} />
           </Routes>
         </Layout>
 
-        <Divider/>
+        <Divider />
 
-        <Footer style={{paddingBottom: '50px'}}>
+        <Footer style={{ paddingBottom: '50px' }}>
           <Flex justify={'center'} align={'center'} vertical>
             <span style={{
               fontSize: '15px',
@@ -95,8 +95,8 @@ function App() {
             <Flex style={{
               gap: '15px',
             }}>
-              <a href={"https://github.com/ZhangYW18"}> <GithubOutlined style={{fontSize: '30px'}} /> </a>
-              <a href={"https://www.linkedin.com/in/yiwei-zh/"}> <LinkedinOutlined style={{fontSize: '30px'}}/> </a>
+              <a href={"https://github.com/ZhangYW18"}> <GithubOutlined style={{ fontSize: '30px' }} /> </a>
+              <a href={"https://www.linkedin.com/in/yiwei-zh/"}> <LinkedinOutlined style={{ fontSize: '30px' }} /> </a>
             </Flex>
           </Flex>
         </Footer>

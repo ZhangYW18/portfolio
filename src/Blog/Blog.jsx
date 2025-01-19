@@ -6,6 +6,7 @@ import Redesign from "./Redesign/Redesign";
 import Dev from "./Dev/Dev";
 import {ArrowLeftOutlined} from "@ant-design/icons";
 import {FloatButton} from "antd";
+import DashCache from "./Dashcache/Dashcache";
 
 
 function Blog(props) {
@@ -21,9 +22,12 @@ function Blog(props) {
     case 'redesign':
       component = <Redesign/>;
       break;
-    case 'dev':
-      component = <Dev/>;
+    case 'dashcache':
+      component = <DashCache/>;
       break;
+    // case 'dev':
+    //   component = <Dev/>;
+    //   break;
     default:
       return (
         <div>
