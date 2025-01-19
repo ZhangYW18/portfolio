@@ -1,9 +1,9 @@
 import React from 'react';
-import {Flex} from "antd";
+import { Flex } from "antd";
 
 import '../Blog/blog.css'
 import AboutSection from "./AboutSection/AboutSection";
-import {useMediaQuery} from "react-responsive";
+import { useMediaQuery } from "react-responsive";
 
 function About(props) {
   const isTablet = useMediaQuery({ query: '(max-width: 1200px)' });
@@ -65,10 +65,13 @@ function About(props) {
               I like playing basketball. I won champion in 2015 Nike China High School Basketball League (Nanjing City Division) as the starting center of Nanjing Jinling High School basketball team. See <a href={"http://www.jlhs.net/DisplayInfo.jsp?pageID=10381&menuID=156"}>this article</a> for details. Later, I won back-to-back champions in UESTC School of Electronic Engineering Basketball League from 2016 to 2017.
             </div>,
             <div>
-              I like exchanging postcards with people around the world. Currently I've just received 100th postcard from the whole world on <a href={"https://www.postcrossing.com/"}>Postcrossing</a>!
+              I like exchanging postcards with people around the world. Currently I've just received 200th postcard from the whole world on <a href={"https://www.postcrossing.com/"}>Postcrossing</a>!
             </div>,
             <div>
-              I like travelling and I have visited 28/34 province-level divisions of China.
+              I like travelling and I have visited 28/34 province-level divisions of China. I also went to Uzbekistan, Japan, Korea, Singapore, Mexico - next destination is the whole world!
+            </div>,
+            <div>
+              I like movies and is a regular audience at Metrograph NYC. I document what I saw on Douban/Letterboxd and sometimes leave short reviews.
             </div>,
             <div>
               I like listening to music, especially indie rock, shoegaze, dream pop. Check out my favorite artists and albums <a href={"https://www.last.fm/user/fairytale13"}>here</a>.
